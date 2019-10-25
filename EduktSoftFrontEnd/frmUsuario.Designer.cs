@@ -40,36 +40,40 @@
             // txtNombreUsuario
             // 
             this.txtNombreUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtNombreUsuario.Location = new System.Drawing.Point(198, 218);
+            this.txtNombreUsuario.Location = new System.Drawing.Point(264, 268);
+            this.txtNombreUsuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNombreUsuario.Name = "txtNombreUsuario";
-            this.txtNombreUsuario.Size = new System.Drawing.Size(375, 26);
+            this.txtNombreUsuario.Size = new System.Drawing.Size(499, 30);
             this.txtNombreUsuario.TabIndex = 1;
             this.txtNombreUsuario.TextChanged += new System.EventHandler(this.txtNombreUsuario_TextChanged);
             // 
             // txtContrasena
             // 
             this.txtContrasena.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtContrasena.Location = new System.Drawing.Point(198, 294);
+            this.txtContrasena.Location = new System.Drawing.Point(264, 362);
+            this.txtContrasena.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtContrasena.Name = "txtContrasena";
-            this.txtContrasena.Size = new System.Drawing.Size(375, 26);
+            this.txtContrasena.Size = new System.Drawing.Size(499, 30);
             this.txtContrasena.TabIndex = 2;
             // 
             // pbLogo
             // 
-            this.pbLogo.Location = new System.Drawing.Point(198, 68);
+            this.pbLogo.Location = new System.Drawing.Point(264, 84);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(375, 58);
+            this.pbLogo.Size = new System.Drawing.Size(500, 71);
             this.pbLogo.TabIndex = 3;
             this.pbLogo.TabStop = false;
             // 
             // lblErrorInicioSesion
             // 
             this.lblErrorInicioSesion.AutoSize = true;
-            this.lblErrorInicioSesion.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblErrorInicioSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblErrorInicioSesion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(60)))), ((int)(((byte)(129)))));
-            this.lblErrorInicioSesion.Location = new System.Drawing.Point(194, 154);
+            this.lblErrorInicioSesion.Location = new System.Drawing.Point(259, 190);
+            this.lblErrorInicioSesion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblErrorInicioSesion.Name = "lblErrorInicioSesion";
-            this.lblErrorInicioSesion.Size = new System.Drawing.Size(187, 20);
+            this.lblErrorInicioSesion.Size = new System.Drawing.Size(278, 25);
             this.lblErrorInicioSesion.TabIndex = 4;
             this.lblErrorInicioSesion.Text = "Usuario o contraseña inválidos";
             // 
@@ -79,24 +83,26 @@
             this.btnIngresar.FlatAppearance.BorderSize = 0;
             this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnIngresar.Location = new System.Drawing.Point(324, 366);
+            this.btnIngresar.Location = new System.Drawing.Point(475, 13);
+            this.btnIngresar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(136, 39);
+            this.btnIngresar.Size = new System.Drawing.Size(181, 48);
             this.btnIngresar.TabIndex = 3;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = false;
             // 
             // frmUsuario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.lblErrorInicioSesion);
             this.Controls.Add(this.pbLogo);
             this.Controls.Add(this.txtContrasena);
             this.Controls.Add(this.txtNombreUsuario);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmUsuario";
             this.Text = "EduktSoft";
             this.Load += new System.EventHandler(this.frmUsuario_Load);
