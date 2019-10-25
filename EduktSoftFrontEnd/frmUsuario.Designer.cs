@@ -100,7 +100,6 @@
             // 
             // pbOjo
             // 
-            this.pbOjo.Image = global::EduktSoftFrontEnd.Properties.Resources.ojitoSinRaya;
             this.pbOjo.Location = new System.Drawing.Point(594, 294);
             this.pbOjo.Name = "pbOjo";
             this.pbOjo.Size = new System.Drawing.Size(28, 26);
