@@ -83,6 +83,36 @@ namespace EduktSoftFrontEnd.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ojitoConRaya {
+            get {
+                object obj = ResourceManager.GetObject("ojitoConRaya", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ojitoSinRaya {
+            get {
+                object obj = ResourceManager.GetObject("ojitoSinRaya", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ojoVerContrasena {
+            get {
+                object obj = ResourceManager.GetObject("ojoVerContrasena", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap orange_monster {
             get {
                 object obj = ResourceManager.GetObject("orange_monster", resourceCulture);
