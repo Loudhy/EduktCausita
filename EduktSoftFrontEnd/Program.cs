@@ -16,7 +16,7 @@ namespace EduktSoftFrontEnd
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmUsuario());
+            Application.Run(new frmConfirmacion("jordyelniño@gmail.com"));
         }
     }
 }
