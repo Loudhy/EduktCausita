@@ -73,6 +73,16 @@ namespace EduktSoftFrontEnd.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap edukt_trencito_de_madera_300x300 {
+            get {
+                object obj = ResourceManager.GetObject("edukt_trencito_de_madera-300x300", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mounstrito {
             get {
                 object obj = ResourceManager.GetObject("mounstrito", resourceCulture);
