@@ -133,9 +133,9 @@ namespace EduktSoftFrontEnd.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap orange_monster__1_ {
+        internal static System.Drawing.Bitmap owo {
             get {
-                object obj = ResourceManager.GetObject("orange_monster (1)", resourceCulture);
+                object obj = ResourceManager.GetObject("owo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -146,16 +146,6 @@ namespace EduktSoftFrontEnd.Properties {
         internal static System.Drawing.Bitmap Png {
             get {
                 object obj = ResourceManager.GetObject("Png", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap owo {
-            get {
-                object obj = ResourceManager.GetObject("owo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
