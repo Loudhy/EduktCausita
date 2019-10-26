@@ -15,6 +15,7 @@ namespace EduktSoftFrontEnd
     public partial class frmUsuario : Form
     {
         int aux = 0;
+        Service.ServicioClient jajajajaj = new Service.ServicioClient();
         public frmUsuario()
         {
             InitializeComponent();
@@ -101,6 +102,18 @@ namespace EduktSoftFrontEnd
                 txtContrasena.UseSystemPasswordChar = true;
                 aux = 0;
             }
+        }
+
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+            int aux=jajajajaj.validarLogin(txtNombreUsuario.Text, txtContrasena.Text);
+            if (aux==0)
+            {
+                MessageBox.Show("MAAAAAAAL");
+            }
+            else
+            {
+                MessageBox.Show("BIEEEEEEEEEN");            }
         }
     }
 }

@@ -84,6 +84,7 @@
             this.btnIngresar.TabIndex = 3;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = false;
+            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             this.btnIngresar.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.btnIngresar_PreviewKeyDown);
             // 
             // lblLinkOlvidoContra

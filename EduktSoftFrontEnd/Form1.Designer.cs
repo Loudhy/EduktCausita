@@ -34,9 +34,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(266, 22);
+            this.pictureBox1.Image = global::EduktSoftFrontEnd.Properties.Resources.Png;
+            this.pictureBox1.Location = new System.Drawing.Point(176, 18);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(249, 216);
+            this.pictureBox1.Size = new System.Drawing.Size(420, 420);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
